@@ -1,0 +1,37 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "auth",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Auth API",
+          "Version": "1.0",
+          "Url": "https://localhost:7249/auth/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "employer",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Employer API",
+          "Version": "1.0",
+          "Url": "https://localhost:7249/employer/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "candidate",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Candidate API",
+          "Version": "1.0",
+          "Url": "https://localhost:7249/candidate/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
